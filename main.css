@@ -1,1 +1,50 @@
 /* Add custom styles here */
+body {
+	font-size: 18px;
+	color: white; 
+}
+footer {
+	margin: auto 0;
+	color: black;
+	text-align: center;
+	clear: both;
+	margin-top: 20px; 
+}
+li {
+	display: inline;
+}
+i {
+	color: black;
+}
+.container1 {
+	text-align: center;	
+	background-color: #333;
+	padding: 30px 20px; 
+	margin: 5px; 
+}
+.container2 {	
+	background-color: #333;
+	padding: 10px 20px; 
+	margin: 5px; 
+}
+.col-md-4 {
+	border: solid 2px; 
+	padding: 10px 10px; 
+	height: 100%;
+	text-align: left;
+	vertical-align: top;
+}
+.img-responsive {
+	width: 350px;
+}
+.row-height {
+  display: table;
+  table-layout: fixed;
+  height: 100%;
+  width: 100%;
+}
+.col-sm-height {
+   display: table-cell;
+   float: none;
+   height: 100%;
+  }
